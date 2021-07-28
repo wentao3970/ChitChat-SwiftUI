@@ -16,6 +16,8 @@
 		125735D326B019F4003B0821 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125735D226B019F4003B0821 /* LoginView.swift */; };
 		125735D526B024AE003B0821 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125735D426B024AE003B0821 /* SignupView.swift */; };
 		125735D726B02526003B0821 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125735D626B02526003B0821 /* CustomTextField.swift */; };
+		125735D926B0E2F5003B0821 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125735D826B0E2F5003B0821 /* MainTabView.swift */; };
+		125735DB26B0E381003B0821 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125735DA26B0E381003B0821 /* ResetPasswordView.swift */; };
 		DBEFE1F6653694DF468555C2 /* Pods_FlashChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958E88DA5DCDFAF3D279CB11 /* Pods_FlashChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		125735D226B019F4003B0821 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		125735D426B024AE003B0821 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		125735D626B02526003B0821 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		125735D826B0E2F5003B0821 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		125735DA26B0E381003B0821 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
 		958E88DA5DCDFAF3D279CB11 /* Pods_FlashChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C409FB3A037CE1EAB4369528 /* Pods-FlashChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashChat.debug.xcconfig"; path = "Target Support Files/Pods-FlashChat/Pods-FlashChat.debug.xcconfig"; sourceTree = "<group>"; };
 		EF5681A6F38824F9BD053DA4 /* Pods-FlashChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashChat.release.xcconfig"; path = "Target Support Files/Pods-FlashChat/Pods-FlashChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 			children = (
 				125735D226B019F4003B0821 /* LoginView.swift */,
 				125735D426B024AE003B0821 /* SignupView.swift */,
+				125735D826B0E2F5003B0821 /* MainTabView.swift */,
+				125735DA26B0E381003B0821 /* ResetPasswordView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -265,7 +271,9 @@
 				125735BD26A7D0E9003B0821 /* ContentView.swift in Sources */,
 				125735BB26A7D0E9003B0821 /* FlashChatApp.swift in Sources */,
 				125735D726B02526003B0821 /* CustomTextField.swift in Sources */,
+				125735DB26B0E381003B0821 /* ResetPasswordView.swift in Sources */,
 				125735D326B019F4003B0821 /* LoginView.swift in Sources */,
+				125735D926B0E2F5003B0821 /* MainTabView.swift in Sources */,
 				125735CF26A7D380003B0821 /* AuthViewModel.swift in Sources */,
 				125735D526B024AE003B0821 /* SignupView.swift in Sources */,
 			);
