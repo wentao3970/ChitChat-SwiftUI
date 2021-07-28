@@ -9,12 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var viewModel: AuthViewModel
+    @EnvironmentObject var viewModel: AuthViewModel
     
     
     var body: some View {
-        Text(viewModel.test)
-            .padding()
+        Group {
+            if viewModel.userSession != nil {
+                MainTabView()
+                
+            } else {
+                LoginView()
+            }
+        }
     }
 }
 

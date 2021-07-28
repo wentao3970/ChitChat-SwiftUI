@@ -23,6 +23,8 @@ struct CustomeTextFied: View {
                     SecureField(placeholderText, text: $text)
                 } else {
                     TextField(placeholderText, text: $text)
+                        .autocapitalization(.none)
+                        .disableAutocorrection(true)
                 }
                 
             }
